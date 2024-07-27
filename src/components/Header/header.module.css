@@ -1,0 +1,32 @@
+.header{
+    width: 700px;
+    height: 800px;
+    background-color: #222222;
+    position: relative;
+    border-radius: 5%;
+}
+.pic{
+    background: url(../../img/caption.jpg) center / cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100%;
+    height: 50%;
+}
+.img{
+    position: absolute;
+    left: 275px;
+    top: 325px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px black solid;
+    
+}
+.about{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
